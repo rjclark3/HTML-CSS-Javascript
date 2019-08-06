@@ -1,0 +1,141 @@
+<!doctype HTML>
+<HTML>
+
+	<Head>
+		<Title>Test2</Title>
+		<link rel="stylesheet" href="../../stylesheets/Test2.css">
+	</Head>
+	
+	
+	<Body>
+            <form name="frmStudentRegistration">
+                    
+                    
+            <!--import in image and set id-->
+            <img  id = "logo" src="../../Images/csLogo.png" alt="Image of Cincinnati State Logo" >
+    
+
+            <fieldset class="FieldPers">
+                    <legend>Personal Information</legend>
+            <!--Create Table for personal information-->
+                <table class="Personal">
+                        <tr>
+                            <td class ="label">
+                                First Name:
+                            </td>
+                            <td class="controls">
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class ="label">
+                                Last Name:
+                            </td>
+                            <td class="controls">
+                                <input type="text">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class ="label">
+                                Social Security Number:
+                            </td>
+                            <td class="controls">
+                                <input type="password" placeholder="###-##-####">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class ="label">
+                                Date Of Birth:
+                            </td>
+                            <td class="controls">
+                                <input type="date">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class ="label">
+                                    Home Phone:
+                            </td>
+                            <td class="controls">
+                                    <input type="text" placeholder="(###)###-####">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class ="label">
+                                Email Address: *
+                            </td>
+                            <td class="controls">
+                                <input type="text">
+                            </td>
+                        </tr>
+                    </table>
+             </fieldset>
+
+
+             <fieldset class="FieldReg">
+                    <legend>Registration Information</legend>
+                    <!--Create Table for registration information-->
+                        <table class="Personal">
+                                <tr>
+                                    <td class ="label">
+                                        Start Year:
+                                    </td>
+                                    <td>
+                                        <select>
+                                            <option value="" disabled selected>Choose Year</option>
+                                            <option value="2015">2015</option>
+                                            <option value="2016">2016</option>
+                                            <option value="2017">2017</option>
+                                            <option value="2018">2018</option>
+                                          </select> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class ="label">
+                                        Start Term: 
+                                    </td>
+                                    <td>
+                                        <select>
+                                            <option value="" disabled selected>Choose Term</option>
+                                            <option value="Spring">Spring</option>
+                                            <option value="Summer">Summer</option>
+                                            <option value="Fall">Fall</option>
+                                          </select> 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class ="label" id="tdgrad">
+                                        Graduation Month:     
+                                    </td>
+                                    <td class ="label" id="Grad">
+                                        <input name="Grad" type="radio" value="November">
+                                        <label>November</label><br>
+                                        <input name="Grad" type="radio" value="June">
+                                        <label>June</label>
+                                    </td>
+                                </tr>
+                               
+                            </table>
+                     </fieldset>
+
+                     <fieldset class="FieldSubmit" name="test">
+                            <legend>Submit Your Registration</legend>
+                            <!--Create Table for personal information-->
+                             <table class="Personal">
+                                    <tr>
+                                        <td id="buttonSubmit">
+                                                <button class="buttons" type="button">Submit</button>
+                                        </td>
+                                        <td id="buttonReset"> 
+                                                <button class="buttons" type="button">Reset</button>
+                                        </td>
+                                     </tr>
+                             </table>
+                     </fieldset>
+        </form>
+    
+    </Body>

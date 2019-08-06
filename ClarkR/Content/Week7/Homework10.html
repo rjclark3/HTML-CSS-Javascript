@@ -1,0 +1,302 @@
+<!doctype HTML>
+ <!--
+		Name: Rodney Clark
+		Date: 6/27/2018
+		Abstract: Homework 10
+   -->
+<HTML>
+	<style>
+		table,
+		table tr,
+		table td {
+			border: solid 1px black;
+		}
+
+
+		button {
+			margin: 5px;
+		}
+		
+	</style>
+	<Head>
+		<Title>Homework10</Title>
+	</Head>
+	
+	
+	<Body>
+		<h3>1) - Contact Us Form</h3>
+		<form>
+			<table>
+				<tr>
+					<td colspan="2">Send us an email</td>
+				</tr>
+				<tr>
+					<td>Subject: *</td>
+					<td>
+						<select name="selSubject">
+							<option selected="selected" value="">General Question</option>
+							<option value="Order Followup">Order Followup</option>
+						<option value="Sales">Sales</option>
+							<option value="Other">Other</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+				<tr>
+					<td>
+						Your Name: *
+					</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Title:
+					</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Company:
+					</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Phone Number:
+					</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Email Address: *
+					</td>
+					<td>
+						<input type="text">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						Message
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<textarea name="messaage" cols="40" rows="5"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: right;">
+						* Required Field
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;">
+						<button>Submit</button>
+						<button>Clear</button>
+					</td>
+				</tr>
+			</table> 
+	
+	<!--
+		Second Table
+	-->
+		<h3>2) - Checkboxes, radio buttons, combobox and listbox</h3>
+		<table>
+			<tr>
+				<td colspan="2">Miscellaneous</td>
+			</tr>
+			<tr>
+				<td >Toppings:
+
+
+
+				</td>
+				<td>
+					<input type="checkbox" name="chkTopping" value="Caramel">Caramel</br>
+					<input type="checkbox" name="chkHotFudge" value="Hot Fudge">Hot Fudge</br>
+					<input type="checkbox" name="chkSprinkles" value="Sprinkles">Sprinkles
+					
+				</td>
+			</tr>
+			<tr>
+				<td></td><td></td>
+			<tr>
+				<td>
+					Flavor: *
+				</td>
+				<td>
+					<input type="radio" name="radFlavor" value="Chocolate">Chocolate</br>
+					<input type="radio" name="radFlavor" value="Strawberry">Strawberry</br>
+					<input type="radio" name="radFlavor" value="Vanilla">Vanilla
+				</td>
+			</tr>
+			<tr>
+				<td>	
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Color 1: *
+				</td>
+				<td>
+					<select>
+							<option selected="selected" value="">Red</option>
+							<option value="Green">Green</option>
+							<option value="Blue">Blue</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Color 2: *					
+				</td>
+				<td>
+						<select>
+								<option disabled>Primary Colors</option>
+								<option selected="selected" value="">Red</option>
+								<option value="Green">Green</option>
+								<option value="Blue">Blue</option>
+								<option disabled>Secondary Colors</option>
+								<option value="Yellow">Yellow</option>
+								<option value="Magenta">Magenta</option>
+								<option value="Cyan">Cyan</option>
+						</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Color 3: *
+				</td>
+				<td>
+						
+						<button height="5"></button>
+							
+				</td>
+			</tr>
+			<tr>
+
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: right;">
+					* Required Field
+				</td>
+			</tr>
+			<tr>
+				
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<button>Submit</button>
+					<button>Clear</button>
+				</td>
+			</tr>
+		</table> 
+	
+
+		<!--
+		Third Table
+	-->
+		<h3>3) - Tricky Form Fields</h3>
+		<table>
+			<tr>
+				<td colspan="2">Tricky Form Fields</td>
+			</tr>
+			<tr>
+				<td>First Name: *</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+			<tr>
+				<td>
+					Your Name: *
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Last Name: *
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email Address: *
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Confirm Email Address: *
+				</td>
+				<td>
+					<input type="text">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Date Of Birth: *
+				</td>
+				<td>
+					<input type="date">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Social Security Number: *
+				</td>
+				<td>
+					<input type="password">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Salary: *
+				</td>
+				<td>
+					<input type="password">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" style="text-align: center;">
+					<button>Submit</button>
+					<button>Clear</button>
+				</td>
+			</tr>
+		</table>
+		
+	</Body>
+	
+</HTML>

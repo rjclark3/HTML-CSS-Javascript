@@ -1,0 +1,102 @@
+body {
+    background-color:#A8F89C; 
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px ;
+    height: 75px;
+    padding:10px;
+}
+
+td {
+    width: 150px;
+}
+
+select {
+    width: 150px;
+}
+.Personal {
+    position: relative;
+    width: 400;
+    display:block;
+    margin-right: auto;
+    margin-left:auto;
+    align-content: center;
+}
+
+.FieldPers {
+    width: 410px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #286714 ;
+    text-align: right;
+}
+
+.FieldReg {
+    width: 410px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #286714 ;
+    text-align: right;    
+}
+
+.FieldSubmit {
+    position: relative;
+    width: 410px;
+    height: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    border-color: #286714 ;
+    text-align: right;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #286714 
+}
+
+#Grad {
+    margin:0;
+    text-align: left;
+    color: #201E1C;
+    size:14px;
+}
+
+tdgrad {
+    text-align: top;
+}
+
+
+#buttonSubmit {
+    position: absolute;
+    margin-left: 28%;
+    width: 75px;
+    font-weight: bold;
+    background-color: #286714;
+}
+
+#buttonReset {
+    position: absolute;
+    margin-left: 35%;
+}
+
+.buttons {
+    width: 75px;
+    font-weight: bold;
+    background-color: #286714;
+    color: white;
+}
+
+.label {
+    font-size:14px;
+    color: #06127d;
+    padding-right:7px;
+}
+
+.controls {
+    width:140px;
+    padding-left:7px;
+}

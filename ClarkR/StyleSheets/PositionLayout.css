@@ -1,0 +1,71 @@
+body {
+	margin: 20px;
+}
+#banner {
+	position: relative;
+}
+
+#banner #badge{
+	position: absolute;
+	left: -18px;
+	top: -18px;
+}
+
+#banner #logo {
+	margin-left: 60px;
+}
+
+#banner ul{
+	position: absolute;
+	right: 60px;
+	bottom: 5px;
+}
+#main {
+	margin-left: 170px;
+	margin-right: 170px;
+	padding: 0 15px 15px 20px;
+	border: 1px solid #666;
+	border-top: none;
+	border-bottom: none;
+	margin-top: 22px;
+	overflow: hidden;
+}
+
+#main .overlay {
+	float: right;
+	width: 200px;
+	margin-bottom: 2px;
+	margin-left: 10px;
+	position: relative;
+}
+
+#main .overlay figcaption {
+		position: absolute;
+		width: 168px;
+		left: 10px;
+		bottom: 10px;
+		background-color: #fff;
+		border: 1px solid #666;
+		font-size: 1.1em;
+		font-weight: bold;
+		text-align: center;
+		padding: 5px;
+		margin: 0;
+}
+#contentWrapper {
+	position: relative;
+}
+
+#sidebar {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 170px;
+}
+
+#adverts {
+ position: absolute;
+ top: 30px;
+ right: 25px;
+ width: 125px;
+}

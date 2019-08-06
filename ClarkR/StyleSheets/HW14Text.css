@@ -1,0 +1,28 @@
+#content{
+    box-sizing: content-box;
+    width: 100%;
+    border-width: 5px;
+    border-color: blue;
+    border-style: outset;
+    margin: 0;
+    padding: 0;
+}
+
+#border{
+    box-sizing: border-box;
+    width: 100%;
+    border-width: 5px;
+    border-color: blue;
+    border-style: outset;
+    margin: 0;
+    padding: 0;
+}
+
+#text {
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#propertyName {
+    color:blue;
+}

@@ -1,0 +1,96 @@
+<!-- Rodney Clark
+     Homework 20
+     SET 110-400 -->
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Homework 20</title>
+    <link href="../../StyleSheets/HW20Layout.css" type="text/css" rel="stylesheet">
+    <!-- Call Style Sheet -->
+    <script src="../../scripts/HW20Script.js"></script>
+    <!-- Call Script  -->
+</head>
+
+<body>
+
+    <fieldset id="out">
+        <!-- Outter Border -->
+        <fieldset id="in">
+            <!-- Inner Border -->
+
+            <img src="../../Images/Triangle.gif" alt="Triangle" id="triangle">
+            <!-- Triangle Photo -->
+
+            <p>Enter the Width and Height of your <br> triangle to calculate the area</p> <!-- Instructions -->
+
+            <table>
+                <!-- Labels and Text Boxes for Width and Height -->
+                <tr>
+                    <td>Width: (b)</td>
+                    <td> <input id="width" type="text"> </td>
+                </tr>
+
+                <tr>
+                    <td>Height: (h)</td>
+                    <td> <input id="height" type="text"> </td>
+                </tr>
+            </table> <br>
+
+            <!-- Calculate Area button and call areacalc Function from js -->
+            <button onclick="intAreaCalc()" type="button">Calculate Area</button><br><br>
+
+            <table>
+                <!-- Area Output Label and text box -->
+                <tr>
+                    <td>The Area Is:</td>
+                    <td><input id="area" type="text"></td>
+                </tr>
+            </table><br>
+            <hr> <br>
+
+            <p>Enter 5 Numbers and press Minimum <br>Button to find the smallest Number</p> <!-- instructions -->
+
+            <table id="minimumInputs">
+                <!-- 5 Input boxes for Min/max -->
+                <tr>
+                    <td><input id="Number1" class="Minimum" type="text"></td>
+                    <td><input id="Number2" class="Minimum" type="text"></td>
+                    <td><input id="Number3" class="Minimum" type="text"></td>
+                    <td><input id="Number4" class="Minimum" type="text"></td>
+                    <td><input id="Number5" class="Minimum" type="text"></td>
+                </tr>
+            </table><br><br>
+
+            <table id="minMaxButtons">
+                <!-- Min/Max Buttons and displays -->
+                <tr>
+                    <td><button id="miniButton" type="button" onclick="minimumCalc()">Minimum</button></td>
+                    <td><input id="miniDisplay" type="text"></td>
+                    <td><button id="maxButton" type="button" onclick="maximumCalc()">Maximum</button></td>
+                    <td><input id="maxDisplay" type="text"></td>
+                </tr>
+            </table><br>
+
+            <hr> <br>
+
+            <p>Enter a number greater than 100 and <br>click the button to find the square root</p> <!-- Instructions -->
+
+            <input type="text" id="rootInput"><br><br>
+            <!-- Input box for Number to sq root -->
+
+            <button type="button" onclick="CalcRoot()">Calculate Square Root</button> <!-- Calculate sq root button -->
+
+
+        </fieldset>
+    </fieldset>
+
+</body>
+
+</html>

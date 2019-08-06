@@ -1,0 +1,20 @@
+table {
+    width: 150px;
+    height: 150px;
+}
+
+#nested {
+    width: 350px;
+    height: 350px;
+}
+
+#nested2 {
+    width: 350px;
+    height: 200px;
+    background-color: #F9F6F1;
+}
+
+#yellowSquare {
+    background-color: #FFFF00;
+    height: 75px;
+}

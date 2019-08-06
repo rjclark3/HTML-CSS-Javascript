@@ -1,0 +1,110 @@
+ <!doctype HTML>
+ <!--
+		Name: Rodney Clark
+		Date: 6/12/2018
+		Abstract: Homework 7
+   -->
+<HTML>
+	<Head>
+		<title>Homework 15</title>
+		<link rel="stylesheet" href="../../StyleSheets/HW15Text.css">
+	</Head>
+	
+	<body>
+	
+		<h1>Homework 15</h1>
+		
+		<h3>1)- Border, height, width, bgcolor,align and valign attributes</h3>
+		<table border=1>
+			<tr>
+				<td bgcolor = "#000000">1</td>
+				<td align=top bgcolor = "#FF0000">2</td>
+				<td valign=top align=right bgcolor = "#FFC362">3</td>
+			</tr>
+			<tr>
+				<td align=left bgcolor = "#FFFF00">4</td>
+				<td align=center bgcolor = "#008000">5</td>
+				<td align=right bgcolor = "#0000FF">6</td>
+			</tr>
+			<tr>
+				<td valign=bottom align=left bgcolor = "#800080">7</td>
+				<td valign=bottom bgcolor = "#FF00FF">8</td>
+				<td valign=bottom align=right bgcolor = "#FFFFFF">9</td>+
+			</tr>
+		</table>
+		
+		<h3>2)Colspan and percentage width</h3>
+		<table border=1>
+			<tr>
+				<td colspan="3">1</td>
+			</tr>
+			<tr> 
+				<td width="70%" colspan="2">2</td>
+				<td width="30%">3</td>
+			</tr>
+			<tr>
+				<td width="30%">4</td>
+				<td  width="70%" colspan="2">5</td>
+			</tr>
+		</table>
+		
+		<h3>3)- Rowspan</h3>
+		<table border=1>
+			<tr>
+				<td>1</td>
+				<td  rowspan="2">4</td>
+				<td  rowspan="3">6</td>
+			</tr>
+			<tr>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>5</td>
+			</tr>
+		</table>
+		
+		<h3>4)- Colspan and Rowspan</h3>
+		<table border=1>
+			<tr>
+				<td align=center colspan="2">1</td>
+				<td align=center rowspan="2">2</td>
+			</tr>
+			<tr>
+				<td align=center rowspan="2">4</td>
+				<td align=center >5</td>
+			</tr>
+			<tr>
+				<td align=center colspan="2">3</td>
+			</tr>
+		</table >
+		
+		<h3>5)- Nested Tables</h3>
+		<table id="nested" border=1>
+			<tr id="yellowSquare">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="3" bgcolor="#">
+					<table id="nested2" border=1>
+						<tr>
+							<td align=center>A Nested Table</td>
+							<td valign=top align=center>With this text at the top</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr id="yellowSquare">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+							
+				

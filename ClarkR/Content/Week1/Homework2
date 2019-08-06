@@ -1,0 +1,55 @@
+<!doctype html>
+ <HTML>
+	<Head> 
+		<Title> Homework2 </Title> 
+		</Head>
+	<Body>
+		<p>Name: Rodney Clark<br>Class:HTML for Programmers (110-400)<br>Abstract: Homework 2
+		<h1>Step 1 - Presentation Tags</h1>
+		<p>This is how you make <b>bold</b> text<br>This is how you make <i>italic </i>
+		<br>This is how you make <u>underlined</u> text<br>This is how you make 
+		<sub>subscript</sub> text<br> This is how you make <sup>Superscript</sup> text</p>
+		
+		<p>This is a paragraph</p>
+		<p>This is another Paragraph</p>
+		<blockquote>This is a block quote</Blockquote>
+		<hr>
+		<h1>Step 2 - Ordered Lists</h1>
+		<ol>
+			<li>Preheat the oven to 350F</li>
+			<li>Grease a non-stick pan</li>
+			<li>Mix ingredients in blender for 2 minutes</li>
+			<li>Pour into pan and bake for 30 minutes</li>
+		</ol>
+		<ol>
+			<li>Charge the phase-plasma inducers</li>
+			<li>Narrow the confinement beam</li>
+			<li>Divert power from secondary systems
+				<ol type=i>
+					<li>Sensors
+						<ol type=a>
+							<li>Graviton scanner</li>
+							<li>XRay Scanner</li>
+							<li>Neutrino detectors</li>
+							<li>Anti-proton beam</li>
+						</ol>
+					<li>Lifesupport is secondary, right?</li>
+				</ol>
+			<li>Re-align the dilithium matrix
+		</ol>
+		<hr>
+		<h2 align=right>Step 3 - Unordered List</h2>
+		<ul>
+			<li>Watch Star Trek</li>
+			<li>Watch Star Wards</li>
+			<li>Watch Aliens</li>
+		</ul>
+		<hr>
+		<h2 align=left>Step 4 - Definition List</h2>
+		<dl>
+			<dt>Trek-aholic</dt><dd>Someone who can't watch enough Star Trek</dd>
+			<dt>SciFi-aholic</dt><dd>Someone who can;t watch enough science fiction</dd>
+		</dl>
+		</body>
+		</html>
+ 

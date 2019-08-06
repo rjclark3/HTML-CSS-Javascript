@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(192, 2, 2);
+}
+
+#wrap{
+    font-size: 2.5em;
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: rgb(192, 2, 2);
+    display:inline-block;
+}
+
+#dropdown {
+    position: absolute;
+    margin-top: -300px;
+    padding: 0;
+    background-color: rgb(192, 2, 2);
+}
+
+#nameBlock {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+    height: 1.31em;
+    text-decoration: none;
+    background-color:  rgb(192, 2, 2);
+}
+
+#dropdown li a {
+    position: relative;
+    display:inline-block;
+    padding: 3px;
+    background-color: rgb(224, 225, 228);
+    color: #000000;
+    text-decoration: none;
+    border-style: solid;
+    border-color:black;
+    border-width: 1;
+    width: 200px;
+    text-align: center;
+}
+
+#dropdown li ul {
+    display: none;
+    background-color: rgb(173, 175, 179);
+}
+
+#dropdown li ul li {
+}
+
+#dropdown li > ul {
+    background-color:  rgb(192, 2, 2);
+    position: absolute;
+    margin:0;
+    padding:0;
+}
+
+#dropdown li:hover > ul {
+   display: inline-block;
+}
+
+#dropdown li:hover li a{
+    font-size: .75em;
+    border-left: 0;
+}
+
+#dropdown li li a:hover{
+    background-color: #ffffff;
+}
+
+#hwAss {
+    position: relative;
+    display:inline-block;
+    padding: 3px;
+    text-decoration: none;
+    border: 2 solid black;
+    width: 205px;
+    text-align: center;
+    background-color: teal;
+    color:white;
+    font-size: .5em;
+    width: 200px;
+}
+#dropdown > li > ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+#dropdown > li {
+    position: relative;
+}

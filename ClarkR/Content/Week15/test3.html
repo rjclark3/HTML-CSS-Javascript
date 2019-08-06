@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Test 3</title>
+    <link href="../../StyleSheets/Test3.css" type="text/css" rel="stylesheet">
+    <!-- Style Sheet -->
+    <script src="../../scripts/Test3Script.js"></script>
+    <!-- Test 3 Script -->
+</head>
+
+<body>
+    <fieldset>
+
+        <h1>Simple Calculator</h1>
+
+        <!-- Value one label and text box -->
+        <table>
+            <tr>
+                <td>Value 1:</td>
+                <td><input type="text" id="value1"></td>
+        </table><br>
+
+        <!-- Combo Box for operation -->
+        <select id="Operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select><br><br>
+
+        <!-- Value two label and text box -->
+        <table>
+            <tr>
+                <td>Value 2:</td>
+                <td><input type="text" id="value2"></td>
+            </tr>
+        </table><br>
+
+        <hr><br>
+
+        <!-- Total Label and text box -->
+        <table id="totalBox">
+            <tr>
+                <td>Total:</td>
+                <td><input type="text" id="Total"></td>
+            </tr>
+            </tr>
+        </table><br>
+
+        <!-- Calculate and clear buttons -->
+        <button type="text" id="calculate" onclick="Calculate()">Calculate</button><br><br>
+        <button type="reset" id="clear" value="Reset Form" onclick= "clears()">Clear</button>
+
+
+
+    </fieldset>
+
+</body>
+
+</html>
